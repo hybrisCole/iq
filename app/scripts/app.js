@@ -1,16 +1,14 @@
 'use strict';
-
-angular.module('sprintMobile', [
+angular.module('iqRadioMobile', [
     'ngTouch',
     'ngRoute',
     'ngAnimate',
     'angular-gestures',
     'swiper',
-    'iqRadio.controllers',
-    'iqRadio.services'
+    'iqRadioMobile.controllers'
   ]).
   config(['$routeProvider', function ($routeProvider) {
-    //$routeProvider.when('/', {templateUrl: 'partials/main.html', controller: 'IndexCtrl'});
+    $routeProvider.when('/', {templateUrl: 'partials/login.html', controller: 'LoginCtrl'});
     //$routeProvider.when('/swipeTest', {templateUrl: 'partials/swipeTest.html', controller: 'SwipeTestCtrl'});
-    //$routeProvider.otherwise({redirectTo: '/'});
+    $routeProvider.otherwise({redirectTo: '/'});
   }]);
