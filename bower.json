@@ -1,0 +1,16 @@
+{
+  "name": "iq",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular":"1.2.4",
+    "angular-route": "1.2.4",
+    "angular-animate": "1.2.4",
+    "angular-touch": "1.2.4",
+    "angular-gestures":"0.2.0",
+    "pure": "0.3.0",
+    "modernizr": "2.7.1",
+    "jquery": "2.0.3",
+    "Swipe":"2.0.0"
+  },
+  "devDependencies": {}
+}
