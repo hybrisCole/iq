@@ -9,6 +9,6 @@ angular.module('iqRadioMobile', [
   ]).
   config(['$routeProvider', function ($routeProvider) {
     $routeProvider.when('/', {templateUrl: 'partials/login.html', controller: 'LoginCtrl'});
-    //$routeProvider.when('/swipeTest', {templateUrl: 'partials/swipeTest.html', controller: 'SwipeTestCtrl'});
+    $routeProvider.when('/mapaReporte', {templateUrl: 'partials/mapaReporte.html', controller: 'MapaReporteCtrl'});
     $routeProvider.otherwise({redirectTo: '/'});
   }]);
